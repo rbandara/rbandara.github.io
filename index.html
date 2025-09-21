@@ -30,13 +30,17 @@
       <tbody>
         <tr>
           <td>
-            <a href="https://github.com/rbandara/itch-java-processor">ITCH Java Processor</a>
+            <a href="https://github.com/rbandara/itch-java-processor"> Java Producer & Consumer </a>
           </td>
           <td>
-            Java-based ITCH multicast processor that parses NASDAQ ITCH messages and publishes market events for downstream consumers.
+            Producer -  ITCH multicast processor that parses NASDAQ ITCH messages and publishes 
+            market events for downstream Kafka Topic.
+
+            Consumer - Consumes market events from Kafka topic and processes them to maintain 
+            inserts/updates/deletes to a DB.
           </td>
           <td>
-            Java | UDP Multicast | ITCH parsing | Low-latency
+            Java | Kafka | Nasdaq ITCH | Low-latency
           </td>
         </tr>
         <tr>
